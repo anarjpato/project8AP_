@@ -1,0 +1,142 @@
+body{
+    background-color: #fffbf3;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    letter-spacing: 6px;
+    background-color: #2e8b57;
+    color: #fffbf3;
+    padding: 30px; 
+    border-radius: 15px; 
+}
+
+nav {
+    display: inline-block;
+    margin: 30px 10px;
+}
+nav a{
+    color: white;
+    background-color: #2e8b57;
+    font-size: 20px;
+    border-style: solid;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+   
+}
+nav a:hover {
+   
+    color: white;
+    background-color: #2e8b57;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+
+h2{
+    text-align: center;
+    text-decoration: overline;
+}
+  
+
+.maintext{
+    justify-content: left;
+    width: 1045px;
+    border-style: dashed;
+    padding: 30px 15px;
+    display: inline-block;
+    margin: 15px 0px 10px 0px;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+
+#mapofdevon{
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin: 0px 55px 40px 20px;
+    display: inline-block;
+    border: solid 5px #2e8b57;
+    
+}
+
+.torquaypics{
+    display: inline-block;
+
+}
+
+
+#torquayharbour{
+    height: 300px;
+    width: 480px;
+    margin: 0px 25px 0px 35px;
+    border: solid 5px #2e8b57;
+}
+
+#torquayharbournight{
+    height: 300px;
+    width: 480px;
+    margin: 0px 25px 0px 35px;
+    border: solid 5px #2e8b57;
+}
+
+#torquayclocktower{
+    height: 300px;
+    width: 480px;
+    margin: 0px 25px 0px 35px;
+    border: solid 5px #2e8b57;
+}
+
+.textbottomsection{
+    text-align: center; 
+    font-size: 20px;
+    
+    
+}
+
+ul{
+   display: inline-block;
+   text-align: left;
+}
+
+ul a{
+     text-decoration: none;
+     color:white;
+     border: solid 2px black;
+     background-color: #2e8b57;
+     padding: 10px;
+     line-height: 60px;
+}
+
+#towns :hover{
+    text-decoration: underline;
+    
+}
+
+.whatson{
+    text-align: center;
+    font-size: 30px;
+
+    }
+
+.whatson a{
+    color:#2e8b57
+
+
+    }
+
+.carousel-inner{
+    height: 50%;
+    width: 1000px
+}
+
+.carousel-caption{
+    color:rgb(43, 226, 162)   !important;
+    font-size: 30px;
+}
+@media screen and (max-width: 500px) {
+
+}
