@@ -26,6 +26,39 @@ p{text-align: center;}
     background-color: seagreen ;
   }
 
+@media only screen and (max-width: 767px) {
+    /* Your CSS rules for small screens here */
+ body{
+ background-color: antiquewhite;
+ }
+ .gallery{
+     display: inline-block;
+ }
+  }
+  
+  /* For medium screens/tablets with a minimum width of 768px and a maximum width of 991px */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Your CSS rules for medium screens here */
+   body{
+     background-color: lightcoral;
+   }
+  }
+  /* For large screens/laptops with a minimum width of 992px and a maximum width of 1199px */
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Your CSS rules for large screens here */
+   body{
+     background-color: salmon;
+   }
+  }
+  
+  /* For extra-large screens with a minimum width of 1200px */
+ @media only screen and (min-width: 1200px) {
+    /* Your CSS rules for extra-large screens here */
+   body{
+     background-color: lightgreen;
+   }
+  }
+  
   .container1 {
   background-color: white;
   color:black;
